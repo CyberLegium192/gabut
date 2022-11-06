@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>VAL</title>
+    <!-- CDN FONTAWSOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+  <link rel="stylesheet" href="asset/fa/css/all.css">
+  <link rel="stylesheet" href="asset/fa/css/all.min.css">
+  <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <!-- FONT POOPINS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet" />
+
+    <!-- FONT STYLE -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Oswald:wght@500&display=swap"
+      rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;900&display=swap"
+      rel="stylesheet" />
+
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- GOOGLE ICONS-->
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <!-- CSS LINK -->
+  <link rel="stylesheet" href="asset/css/style.css" />
+  <link rel="stylesheet" href="asset/css/slider.css" />
+  <link rel="stylesheet" href="asset/css/slider-image.css">
+    
+  <link rel="stylesheet" href="asset2/splide.min.css">
+  <script src="asset2/splide.min.js"></script>
+  </head>
+
+<body>
+  <!-- NAVBAR MENNU -->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="Nav">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon text-light"></span>
+    </button>
+    <a class="navbar-brand logo" href="#">VALSTORE</a>
+    <a href="login.html" class="user-login">
+      <span class="material-symbols-outlined user">person</span>
+    </a>
+    <a href="">
+     <span class="material-symbols-outlined chart">shopping_cart</span>
+   </a>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <form class="d-flex mt-4">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Semua handphone</a>
+          </li>
+          <!-- APPLE -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Apple
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">iPhone 14</a></li>
+              <li><a class="dropdown-item" href="#"> iPhone 14 Plus
+              </a></li>
+              <li><a class="dropdown-item" href="#">iPhone 14 Pro
+              </a></li>
+              <li><a class="dropdown-item" href="#">iPhone 14 Pro Max
+              </a></li>
+              <li><a class="dropdown-item" href="#">iPhone 13 Mini
+              </a></li>
+              <li><a class="dropdown-item" href="#">iPhone 13
+              </a></li>
+              <li><a class="dropdown-item" href="#">iPhone 13 Pro
+              </a></li>
+              <li><a class="dropdown-item" href="#">iPhone 13 Pro Max
+              </a></li>
+              <li><a class="dropdown-item" href="#">iPhone 12
+              </a></li>
+              <li><a class="dropdown-item" href="#">iPhone 12 Pro
+              </a></li>
+              <li><a class="dropdown-item" href="#">iPhone 12 Pro Max
+              </a></li>
+            </ul>
+          </li>
+          <!-- SAMSUNG -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              samsung
+            </a>
+            <!-- SAMSUNG PHONE -->
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Samsung Z Flip 4</a></li>
+              <li><a class="dropdown-item" href="#">Samsung Galaxy S21 Ultra
+              </a></li>
+              <li><a class="dropdown-item" href="#">Samsung Z Flip3 5G
+              </a></li>
+              <li><a class="dropdown-item" href="#">Samsung Galaxy S22 Ultra
+              </a></li>
+              <li><a class="dropdown-item" href="#">Samsung Galaxy S21 Plus
+              </a></li>
+              <li><a class="dropdown-item" href="#">Samsung Galaxy S21
+              </a></li>
+              <li><a class="dropdown-item" href="#">Samsung Galaxy A73 
+              </a></li>
+              <li><a class="dropdown-item" href="#">Samsung Galaxy A72
+              </a></li>
+              <li><a class="dropdown-item" href="#">Samsung Galaxy A52s 5G
+              </a></li>
+              <li><a class="dropdown-item" href="#">Samsung Galaxy A22
+              </a></li>
+            </ul>
+          </li>
+          <!-- XIAOMI -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              xiaomi
+            </a>
+            <!-- XIAOMI -->
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Redmi 9A</a></li>
+              <li><a class="dropdown-item" href="#">Redmi 10c</a></li>
+              <li><a class="dropdown-item" href="#">Redmi 10 2022</a></li>
+              <li><a class="dropdown-item" href="#">Redmi Note 10 Pro</a></li>
+              <li><a class="dropdown-item" href="#">Redmi Note 10s</a></li>
+              <li><a class="dropdown-item" href="#">Redmi Note 10 5G</a></li>
+              <li><a class="dropdown-item" href="#">Redmi Note 11</a></li>
+              <li><a class="dropdown-item" href="#">Redmi Note 11 Pro</a></li>
+              <li><a class="dropdown-item" href="#">Redmi Note 11 Pro 5G</a></li>
+              <li><a class="dropdown-item" href="#">Xiaomi 11T</a></li>
+              <li><a class="dropdown-item" href="#">Xiaomi 11T Pro</a></li>
+              <li><a class="dropdown-item" href="#">Xiaomi 12 Lite 5G</a></li>
+              <li><a class="dropdown-item" href="#">Xiaomi 12</a></li>
+              <li><a class="dropdown-item" href="#">Xiaomi 12 Pro</a></li>
+            </ul>
+          </li>
+          <!-- RELME -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Realme
+            </a>
+            <!-- XIAOMI -->
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">realme GT2 Explorer Master</a></li>
+              <li><a class="dropdown-item" href="#">realme GT2 Pro</a></li>
+              <li><a class="dropdown-item" href="#">realme GT2</a></li>
+              <li><a class="dropdown-item" href="#">realme GT 5G</a></li>
+              <li><a class="dropdown-item" href="#">realme GT Neo 3</a></li>
+              <li><a class="dropdown-item" href="#">realme GT Explorer Master</a></li>
+              <li><a class="dropdown-item" href="#">realme GT Neo 3T</a></li>
+              <li><a class="dropdown-item" href="#">realme GT Neo2</a></li>
+              <li><a class="dropdown-item" href="#">realme GT Neo2T</a></li>
+              <li><a class="dropdown-item" href="#">realme GT Neo Flash
+              </a></li>
+            </ul>
+          </li>
+          <!-- OPPO -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Oppo
+            </a>
+            <!-- OPPO -->
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Oppo A77s</a></li>
+              <li><a class="dropdown-item" href="#">Oppo Reno8 Pro 5G</a></li>
+              <li><a class="dropdown-item" href="#">Oppo Reno7 5G</a></li>
+              <li><a class="dropdown-item" href="#">Oppo Reno7 4G</a></li>
+              <li><a class="dropdown-item" href="#">Oppo Reno7 Z 5G</a></li>
+              <li><a class="dropdown-item" href="#">Oppo Find X5 Pro 5G
+              </a></li>
+              <li><a class="dropdown-item" href="#">Oppo A96</a></li>
+              <li><a class="dropdown-item" href="#">Oppo A16e</a></li>
+              <li><a class="dropdown-item" href="#">Oppo A55</a></li>
+              <li><a class="dropdown-item" href="#">Oppo A76
+              </a></li>
+              <li><a class="dropdown-item" href="#">Oppo Reno6 5G
+              </a></li>
+              <li><a class="dropdown-item" href="#">Oppo Reno6 Pro 5G
+              </a></li>
+              <li><a class="dropdown-item" href="#">Oppo Find X2 Pro
+              </a></li>
+              <li><a class="dropdown-item" href="#">Oppo Reno 10x Zoom
+              </a></li>
+            </ul>
+          </li>
+          <!-- VIVO -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Vivo
+            </a>
+            <!-- VIVO -->
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Vivo Y16</a></li>
+              <li><a class="dropdown-item" href="#">Vivo V25 Pro 5G</a></li>
+              <li><a class="dropdown-item" href="#">Vivo Y75s 5G</a></li>
+              <li><a class="dropdown-item" href="#">Vivo Y22</a></li>
+              <li><a class="dropdown-item" href="#">Vivo V25e</a></li>
+              <li><a class="dropdown-item" href="#">Vivo X50 Pro
+              </a></li>
+              <li><a class="dropdown-item" href="#">Vivo X50</a></li>
+              <li><a class="dropdown-item" href="#">Vivo V19</a></li>
+              <li><a class="dropdown-item" href="#">Vivo Y30</a></li>
+              <li><a class="dropdown-item" href="#">Vivo Y12
+              </a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- NAVBAR END -->
+ 
+  <!-- IMAGE SLIDER -->
+  <div id="slider">
+    <figure>
+      <a href=" https://mobile.po.co.id/id/">
+        <img src="asset2/ads2.jpg" alt="">
+      </a>
+      <a href="https://www.oppo.com/id/">
+        <img src="asset2/ads1.jpg" alt="">
+      </a>
+      <a href="https://www.samsung.com/id/">
+        <img src="asset2/ads3.jpg" alt="">
+      </a>
+      <a href="https://mobile.mi.co.id/id/">
+        <img src="asset2/ads4.jpg" alt="">
+      </a>
+    </figure>
+  </div>
+  <!-- IMAGE SLIDER END-->
+  
+  <!-- FITUR -->
+  <div class="container-fitur">
+    <div class="fitur">
+      <div class="image-fitur">
+        <a href="#Smartphone">
+        <img src="https://www.svgrepo.com/show/15455/smartphone.svg" alt=""
+        >
+      </div>
+      <div class="fitur-name">
+        <h5 class="smartphone">phone
+        </h5>
+        </a>
+      </div>
+    </div>
+    <!-- LAPTOP -->
+    <div class="fitur">
+      <div class="image-fitur">
+        <a href="#Laptop">
+          <img src="https://www.svgrepo.com/show/31493/laptop.svg" alt="">
+      </div>
+      <div class="fitur-name">
+        <h5 class="smartphone">Laptop
+        </h5>
+        </a>
+      </div>
+    </div>
+    <!-- SMARTWATCH -->
+    <div class="fitur">
+      <div class="image-fitur">
+        <a href="#Wacth">
+        <img src="https://www.svgrepo.com/show/202513/smartwatch.svg" alt="">
+      </div>
+      <div class="fitur-name">
+        <h5 class="smartphone">wacth
+        </h5>
+        </a>
+      </div>
+    </div>
+    <!-- COMPUTER -->
+    <div class="fitur">
+      <div class="image-fitur">
+        <a href="#Computer">
+          <img src="https://www.svgrepo.com/show/41646/computer.svg" alt="">
+      </div>
+      <div class="fitur-name">
+        <h5 class="smartphone">Computer</h5>
+        </a>
+      </div>
+    </div>
+    <!-- AKSESORIS -->
+    <div class="fitur">
+      <div class="image-fitur">
+        <a href="#Aksesoris">
+        <img src="https://www.svgrepo.com/show/103535/pc.svg" alt="">
+      </div>
+      <div class="fitur-name">
+        <h5 class="smartphone">Aksesoris
+        </h5>
+        </a>
+      </div>
+    </div>
+    <!-- TV -->
+    <div class="fitur">
+      <div class="image-fitur">
+        <a href="#Tv">
+        <img src="https://www.svgrepo.com/show/428340/tv.svg" alt="">
+      </div>
+      <div class="fitur-name">
+        <h5 class="smartphone">TV
+        </h5>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- FITUR END -->
+  
+  <!-- SLIDER PRODUCT -->
+  <section id="Smartphone">
+    <div class="garis">
+      <div class="judul">
+        <a class="hp" href="#Nav">
+          <h3 class="head">Mobile Phone </h3>
+        </a>
+      </div>
+    </div>
+    <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+      <div class="splide__track">
+		    <ul class="splide__list">
+		      <!-- PRODUCT 1 -->
+    			<li class="splide__slide">
+    			  <div class="kontiner">
+              <div class="slider">
+                <div class="image">
+                  <center>
+                    <img src="asset2/1.jpg" />
+                  </center>
+                </div>
+                <div class="product-name">
+                  <h3 class="sam">S Galaxy A13</h3>
+                </div>
+                <div class="product-detail">
+                  <p>6.6 inci<br>32/128GB RAM<br>5.000 mAh</p>
+                </div>
+              </div>
+            </div>
+    			</li>
+    			<!-- PRODUCT 2 -->
+    			<li class="splide__slide">
+    			  <div class="kontiner">
+              <div class="slider">
+                <div class="image">
+                  <center>
+                    <img src="asset2/2.jpg" />
+                  </center>
+                </div>
+                <div class="product-name">
+                  <h3> Realme 9i</h3>
+                </div>
+                <div class="product-detail">
+                  <p class="kur">6.6 inch<br>4/64GB RAM<br class="kur">5.000 mAh</p>
+                </div>
+              </div>
+            </div>
+    			</li>
+    			<!-- PRODUCT 3 -->
+    			<li class="splide__slide">
+    			  <div class="kontiner">
+              <div class="slider">
+                <div class="image">
+                  <center>
+                    <img src="asset2/3.jpg" />
+                  </center>
+                </div>
+                <div class="product-name">
+                  <h3>Redmi Note 11</h3>
+                </div>
+                <div class="product-detail">
+                  <p class="kur">6.43 inch<br>6/128 GB RAM<br>5.000 mAh</p>
+                </div>
+              </div>
+            </div>
+    			</li>
+    			<!-- PRODUCT 4 -->
+    			<li class="splide__slide">
+    			  <div class="kontiner">
+              <div class="slider">
+                <div class="image">
+                  <center>
+                    <img src="asset2/4.jpg" />
+                  </center>
+                </div>
+                <div class="product-name">
+                  <h3>Poco M3 Pro</h3>
+                </div>
+                <div class="product-detail">
+                  <p>6.5 inch<br>4/64GB RAM<br>5.000mAh</p>
+                </div>
+              </div>
+            </div>
+    			</li>
+    			<!-- PRODUCT 5 -->
+    			<li class="splide__slide">
+    			  <div class="kontiner">
+              <div class="slider">
+                <div class="image">
+                  <center>
+                    <img src="asset2/5.jpg" />
+                  </center>
+                </div>
+                <div class="product-name">
+                  <h3>OPPO A55</h3>
+                </div>
+                <div class="product-detail">
+                  <p>6.51 inci<br>4/64GB RAM<br>5.000mAh</p>
+                </div>
+              </div>
+            </div>
+    			</li>
+  		</ul>
+  </div>
+</div>
+</section>
+  <!-- SLIDER PRODUCT END-->
+  
+  <!-- LAPTOP SLIDER IMAGE -->
+  <section id="Laptop">
+    <div class="garis selena">
+      <div class="judul">
+        <a class="hp" href="#Nav">
+          <h3 class="head">Laptop</h3>
+        </a>
+      </div>
+    </div>
+    <div id="geser">
+      <figure>
+        <!-- 1 -->
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfutHKtu3KjJObhrsYlkyOkgpir92w4jn8BQ&usqp=CAU" alt="">
+        <!-- 2 -->
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoaJ1GkfsJxcCqAi9mJyqELY2RsTdvH-bPEg&usqp=CAU" alt="">
+        <!-- 3 -->
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyJ_aPeqJwmd0UA22bDvLAw8SyQod0S_u-ZA&usqp=CAU" alt="">
+        <!-- 4 -->
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnfZuxa3fC_JnaEjlb0dmBmgNe916aL_N0iA&usqp=CAU" alt="">
+          <!-- 5 -->
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8BLK9xZj_I2vv-tpN_XR95CggAaaeqyvveA&usqp=CAU" alt="">
+      </figure>
+    </div>
+  </section>
+  <!-- LAPTOP SLIDER END--> 
+  
+  <!-- LAPTOP PRODUCT -->
+  <section>
+    <h4 class="ingfo">Laptop terlaris tahun ini >></h4>
+    <a href="" class="ingfo2">lihat lainnya>></a>
+    <div class="container">
+    <div class="row row-cols-2 row-cols-lg-3 gy-3">
+      <div class="col">
+        <div class="container-laptop ngawi">
+          <div class="wrapper-laptop">
+            <div class="product-laptop-image">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTonLeUA6FmKHbXsg9a9R83KMR7dxFZBP3tkA&usqp=CAU" alt="" width="100%"/> 
+            </div>
+            <div class="product-laptop-name">
+              <p>Lenovo ThinkPad</p>
+            </div>
+            <div class="product-laptop-price">
+              <p>Rp 5.500.000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 2 -->
+      <div class="col">
+        <div class="container-laptop ngawi">
+          <div class="wrapper-laptop">
+            <div class="product-laptop-image">
+              <img src="https://asset.kompas.com/crops/dbV66JXT4EfjdTHpn7Csh4wt0MU=/116x20:1185x733/750x500/data/photo/2021/04/29/608a0c33d711c.png" alt="" width="100%"/> 
+            </div>
+            <div class="product-laptop-name">
+              <p>Samsung Galaxy Book</p>
+            </div>
+            <div class="product-laptop-price">
+              <p>Rp 22.889.290</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- COL END -->
+      <!-- COL 3 -->
+      <div class="col">
+        <div class="container-laptop">
+          <div class="wrapper-laptop">
+            <div class="product-laptop-image">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO07TfzecL4olKLPG2ly-Zb-MWTvqXCNoLIA&usqp=CAU" alt="" width="100%"/> 
+            </div>
+            <div class="product-laptop-name">
+              <p>Asus Zenbook</p>
+            </div>
+            <div class="product-laptop-price">
+              <p>Rp 18.199.000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- COLS END -->
+      <!-- COL 4 -->
+      <div class="col">
+        <div class="container-laptop">
+          <div class="wrapper-laptop">
+            <div class="product-laptop-image">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHKNGqC-yo9Twao-otydbOo0p_YDflRAVHrg&usqp=CAU" alt="" width="100%"/> 
+            </div>
+            <div class="product-laptop-name">
+              <p>ROG Strix G531</p>
+            </div>
+            <div class="product-laptop-price">
+              <p>Rp 15.799.000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- COLS END -->
+    </div>
+  </div>
+  </section>
+  <!-- LAPTOP PRODUCT END -->
+  
+  <!-- SMARTWACTH SLIDE IMAGE-->
+  <section id="Wacth">
+    <div class="garis selena">
+      <div class="judul">
+        <a class="hp" href="#Nav">
+          <h3 class="head">SMARTWACTH</h3>
+        </a>
+      </div>
+    </div>
+    <div id="geser">
+      <figure>
+        <!-- 1 -->
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP36LMlwu_UpSwjVrcdx1NsUIlPiUOUU0qPQ&usqp=CAU" alt="">
+        <!-- 2 -->
+          <img src="https://images.samsung.com/is/image/samsung/assets/in/microsite/retail-lead/galaxy-watch4/galaxy-watch4-3622-dektop-banner-v2.jpg?$ORIGIN_JPG$" alt="">
+        <!-- 3 -->
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKx-rV2Ux1a-DSL2zblHE3lP3UnsqJxpIL9g&usqp=CAU" alt="">
+        <!-- 4 -->
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHnijYpLEL2wR8bxzn_Wy88TkalkJ7hbop7w&usqp=CAU" alt="">
+          <!-- 5 -->
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDIk6Itsxd_Pej4DE3WokmsYywfdmZRbM7AA&usqp=CAU" alt="">
+      </figure>
+    </div>
+  </section>
+  <!-- SMARTWACTH END -->
+  
+  <!-- WACTHP PRODUCT -->
+  <section>
+    <h4 class="ingfo">wacth terlaris tahun ini >></h4>
+    <a href="" class="ingfo2">lihat lainnya>></a>
+    <div class="container">
+    <div class="row row-cols-2 row-cols-lg-3 gy-3">
+      <div class="col">
+        <div class="container-laptop ngawi">
+          <div class="wrapper-laptop">
+            <div class="product-laptop-image">
+              <img src="https://i01.appmifile.com/webfile/globalimg/id/cms/E85D1D88-992A-B4DE-08EB-A5F0B8E8C744!800x800!85.jpg" alt="" width="100%"/> 
+            </div>
+            <div class="product-laptop-name">
+              <p>Mi Watch</p>
+            </div>
+            <div class="product-laptop-price">
+              <p>Rp 1.599.000 <s class="deltext">Rp 1.699.000</s></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 2 -->
+      <div class="col">
+        <div class="container-laptop ngawi">
+          <div class="wrapper-laptop">
+            <div class="product-laptop-image">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJqmRuTb2hNOBIX5NXohpFBGLsPGobOvjd3Q&usqp=CAU" alt="" width="100%"/> 
+            </div>
+            <div class="product-laptop-name">
+              <p>Samsung Galaxy Wacth 5</p>
+            </div>
+            <div class="product-laptop-price">
+              <p>Rp 3.499.000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- COL END -->
+      <!-- COL 3 -->
+      <div class="col">
+        <div class="container-laptop">
+          <div class="wrapper-laptop">
+            <div class="product-laptop-image">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3DZ3IIZ_MeYq-TShS7w4es0lPJ5f6tWPSKA&usqp=CAU" alt="" width="100%"/> 
+            </div>
+            <div class="product-laptop-name">
+              <p>Apple Watch Series 7</p>
+            </div>
+            <div class="product-laptop-price">
+              <p>Rp 5.500.000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- COLS END -->
+      <!-- COL 4 -->
+      <div class="col">
+        <div class="container-laptop">
+          <div class="wrapper-laptop">
+            <div class="product-laptop-image">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0K0KEYiBV58fEQN60IFm5YrUThBdeyOtBsA&usqp=CAU" alt="" width="100%"/> 
+            </div>
+            <div class="product-laptop-name">
+              <p>Smartwacth Garmin Instinct
+              </p>
+            </div>
+            <div class="product-laptop-price">
+              <p>Rp 3.500.000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- COLS END -->
+    </div>
+  </div>
+  </section>
+  <!-- WACTHP PRODUCT  END-->
+  
+  <!-- COMPUTER SLIDE IMAGE-->
+  <section id="Computer">
+    <div class="garis selena">
+      <div class="judul">
+        <a class="hp" href="#Nav">
+          <h3 class="head">Computer</h3>
+        </a>
+      </div>
+    </div>
+    <div id="geser">
+      <figure>
+        <!-- 1 -->
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6dh4hx6orwFlheUFEEmmpavjQuv9iz_hbDA&usqp=CAU" alt="">
+        <!-- 2 -->
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST80nicGOODM9dsAHlFw_AJGInYAnNdLt39w&usqp=CAU" alt="">
+        <!-- 3 -->
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHCD4YHhEFkxfLvb_IqAjOm-BzYit-E3AdHA&usqp=CAU" alt="">
+        <!-- 4 -->
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3J-gXYd9ZpGv6si72hlgwl68VgGfrtt0BWg&usqp=CAU" alt="">
+          <!-- 5 -->
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnFfkf4hJCUdC874L4f7C_A4qxKbRnXLqCnQ&usqp=CAU" alt="">
+      </figure>
+    </div>
+  </section>
+  <!-- COMPUTER SLIDE END -->
+  
+  <!-- COMPUTER PRODUCT -->
+  <section>
+    <h4 class="ingfo">Computer gaming</h4>
+    <a href="" class="ingfo2">lihat lainnya>></a>
+    <div class="container">
+    <div class="row row-cols-2 row-cols-lg-3 gy-3">
+      <div class="col">
+        <div class="container-laptop ngawi">
+          <div class="wrapper-laptop">
+            <div class="product-laptop-image">
+              <img src="https://images.tokopedia.net/img/cache/700/hDjmkQ/2021/12/13/eee8c5aa-8e03-4922-8822-0940281b43ad.jpg.webp?ect=4g" alt="" width="100%"/> 
+            </div>
+            <div class="product-laptop-name">
+              <p>SAMSUNG GAMING MONITOR</p>
+            </div>
+            <div class="product-laptop-price">
+              <p>Rp 3.750.000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 2 -->
+      <div class="col">
+        <div class="container-laptop ngawi">
+          <div class="wrapper-laptop">
+            <div class="product-laptop-image">
+              <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSsETphAQF7BOZSaB3IUtq54xSydI_HRDxHT3kXa7qcRwb5ld1hl2yVN7rJN_1TvN-FHTOtIAKR6xB3H7Pk_npXujP_R6Q6VutxENFPmXln4IAxJJCoLZ0qrw&usqp=CAE" alt="" width="100%"/> 
+            </div>
+            <div class="product-laptop-name">
+              <p>ASUS ROG GAMING PC DESKTOP
+              </p>
+            </div>
+            <div class="product-laptop-price">
+              <p>Rp 31.999.000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- COL END -->
+      <!-- COL 3 -->
+      <div class="col">
+        <div class="container-laptop">
+          <div class="wrapper-laptop">
+            <div class="product-laptop-image">
+              <img src="https://images.tokopedia.net/img/cache/700/VqbcmM/2022/10/20/930c131c-6a77-43af-be80-e8be24ec5fd3.png.webp?ect=4g" alt="" width="100%"/> 
+            </div>
+            <div class="product-laptop-name">
+              <p>PC Gaming AMD | Ryzen 7 5800X 
+              </p>
+            </div>
+            <div class="product-laptop-price">
+              <p>Rp 21.000.000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- COLS END -->
+      <!-- COL 4 -->
+      <div class="col">
+        <div class="container-laptop">
+          <div class="wrapper-laptop">
+            <div class="product-laptop-image">
+              <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSMVEL8IIecEpGh2UUuZgLHdrwPD0SKfqwZAhC0Yq9yK8RwatHbO2zTRKBL20Y7XfAt1QehpVJXfPCAuU_16wvK_ZFPaN2wyK1Rs06EH2x_&usqp=CAY" alt="" width="100%"/> 
+            </div>
+            <div class="product-laptop-name">
+              <p>Asus Tuf Gaming Vg249q
+              </p>
+            </div>
+            <div class="product-laptop-price">
+              <p>Rp 5.455.000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- COLS END -->
+    </div>
+  </div>
+  </section>
+  <!-- WACTHP PRODUCT  END-->
+  
+  <!-- AKSESORIS PAGE-->
+  <section id="Aksesoris">
+    <div class="garis selena">
+      <div class="judul">
+        <a class="hp" href="#Nav">
+          <h3 class="head">AKSESORIS COMP</h3>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- AKSESORIS PAGE END -->
+  
+  <!-- AKSESORIS PRODUCT -->
+  <section>
+    <h4 class="ingfo">Headset & Mouse dll</h4>
+    <a href="" class="ingfo2">lihat lainnya>></a>
+    <div class="container">
+    <div class="row row-cols-2 row-cols-lg-3 gy-3">
+      <div class="col">
+        <div class="container-laptop ngawi">
+          <div class="wrapper-laptop">
+            <div class="product-laptop-image">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc5w6wQW-YtWoQO5nnX2PBBbxaHxG3K3XxyQ&usqp=CAU" alt="" width="100%"/> 
+            </div>
+            <div class="product-laptop-name">
+              <p>Rexus Headset Vonix F30 FREE Splitter</p>
+            </div>
+            <div class="product-laptop-price">
+              <p>Rp 165.000 <s class="deltext">Rp 189.000</s></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- MOUSE -->
+      <div class="col">
+        <div class="container-laptop ngawi">
+          <div class="wrapper-laptop">
+            <div class="product-laptop-image">
+              <img src="https://images.tokopedia.net/img/cache/700/VqbcmM/2022/9/1/01c84c6d-a4b0-4c34-8057-5edc7d1038af.jpg.webp?ect=4g" alt="" width="100%"/> 
+            </div>
+            <div class="product-laptop-name">
+              <p>Logitech G502 X mouse gaming
+              </p>
+            </div>
+            <div class="product-laptop-price">
+              <p>Rp 2.139.000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- COL END -->
+      <!-- KEYBOARD  -->
+      <div class="col">
+        <div class="container-laptop">
+          <div class="wrapper-laptop">
+            <div class="product-laptop-image">
+              <img src="https://images.tokopedia.net/img/cache/700/VqbcmM/2021/1/14/9b0436f2-e1f5-433f-88d2-fc3d4216396c.jpg.webp?ect=4g" alt="" width="100%"/> 
+            </div>
+            <div class="product-laptop-name">
+              <p>PC Gaming AMD | Ryzen 7 5800X 
+              </p>
+            </div>
+            <div class="product-laptop-price">
+              <p>Rp 21.000.000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- COLS END -->
+      <!--MIC -->
+      <div class="col">
+        <div class="container-laptop">
+          <div class="wrapper-laptop">
+            <div class="product-laptop-image">
+              <img src="https://images.tokopedia.net/img/cache/700/VqbcmM/2022/2/4/f5f24508-a923-425a-967e-f36b636c4c3e.jpg.webp?ect=4g" alt="" width="100%"/> 
+            </div>
+            <div class="product-laptop-name">
+              <p>Streamplify MIC ARM RGB
+              </p>
+            </div>
+            <div class="product-laptop-price">
+              <p>Rp 889.000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- COLS END -->
+      <!--KURSI -->
+      <div class="col">
+        <div class="container-laptop">
+          <div class="wrapper-laptop">
+            <div class="product-laptop-image">
+              <img src="https://images.tokopedia.net/img/cache/700/hDjmkQ/2022/9/11/85a504fa-2c96-42fc-b116-d39b7e351b77.jpg.webp?ect=4g" alt="" width="100%"/> 
+            </div>
+            <div class="product-laptop-name">
+              <p>Rexus Office Ergonomic Chair
+              </p>
+            </div>
+            <div class="product-laptop-price">
+              <p>Rp 1.149.000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- COLS END -->
+      <!--SPEAKER -->
+      <div class="col">
+        <div class="container-laptop">
+          <div class="wrapper-laptop">
+            <div class="product-laptop-image">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvIaAFprG22wwAd-Ewk2MV2Vgym6V1JZUWwiiLIvxFmyVHgbc&usqp=CAc" alt="" width="100%"/> 
+            </div>
+            <div class="product-laptop-name">
+              <p>Razer Leviathan V2 Soundbar/Speaker
+              </p>
+            </div>
+            <div class="product-laptop-price">
+              <p>Rp 1.649.000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- COLS END -->
+    </div>
+  </div>
+  </section>
+  <!--  PRODUCT  END-->
+  
+  <!-- TV SLIDER IMAGE  -->
+  <section id="Tv">
+    <div class="garis selena">
+      <div class="judul">
+        <a class="hp"href="#Nav">
+          <h3 class="head">SMART TV</h3>
+        </a>
+      </div>
+    </div>
+  </section>
+  <div id="slider">
+    <figure>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY7lJEciVtzixvs5G79k_QhpO5Rmvv7Yo-nA&usqp=CAU" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUoVvLu5FdpCT7euxvPvM_1kiNtOsATuE3NA&usqp=CAU" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZP-VVUGXTt_Scwg2R-fsYw8tGa9UjMTBrKg&usqp=CAU" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvsqo0UPCSGN5aLsJlEf2U6NZ0tEB3hi1kXA&usqp=CAU" alt="">
+    </figure>
+  </div>
+  <!-- TV SLIDER IMAGE END-->
+  
+  <!-- PRODUCT TV -->
+  <section>
+    <h4 class="ingfo">TV Digital terlaris
+    </h4>
+
+    <a href="" class="ingfo2">lihat lainnya>></a>
+    <div class="container">
+    <div class="row row-cols-2 row-cols-lg-3 gy-3">
+      <div class="col">
+        <div class="container-laptop ngawi">
+          <div class="wrapper-laptop">
+            <div class="product-laptop-image">
+              <img src="https://cf.shopee.co.id/file/ada1bf0bbca565ce8b76df34610fe4f2" alt="" width="100%"/> 
+            </div>
+            <div class="product-laptop-name">
+              <p>Xiaomi TV A3 | Android TV</p>
+            </div>
+            <div class="product-laptop-price">
+              <p>Rp 6.799.000<s class="deltext">Rp 9.499.000</s></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- SAMSUNG -->
+      <div class="col">
+        <div class="container-laptop ngawi">
+          <div class="wrapper-laptop">
+            <div class="product-laptop-image">
+              <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQA7YXWsLv0tMcFsR8KCT2p8zSR6rN2FaDmBuN6UeqE35lckHafAIqqULF-z5vFpYF0gqP-9PahD_nSpbh9GHjieG5_ijpRHC8kT-1Y6V-BqAbhS6uhpA8GbA&usqp=CAY" alt="" width="100%"/> 
+            </div>
+            <div class="product-laptop-name">
+              <p>TV Samsung 32T4001 smart
+              </p>
+            </div>
+            <div class="product-laptop-price">
+              <p>Rp 2.200.000,00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- COL END -->
+      <!-- polytron  -->
+      <div class="col">
+        <div class="container-laptop">
+          <div class="wrapper-laptop">
+            <div class="product-laptop-image">
+              <img src="https://images.tokopedia.net/img/cache/700/hDjmkQ/2022/8/23/117db084-c6c9-497a-89cc-74f0592aab93.jpg.webp?ect=4g" alt="" width="100%"/> 
+            </div>
+            <div class="product-laptop-name">
+              <p>Smart Android Tv Led 32 SoundBar Polytron PLD
+              </p>
+            </div>
+            <div class="product-laptop-price">
+              <p>Rp 21.000.000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- COLS END -->
+      <!--xioami -->
+      <div class="col">
+        <div class="container-laptop">
+          <div class="wrapper-laptop">
+            <div class="product-laptop-image">
+              <img src="https://cf.shopee.co.id/file/eed600d94dbce99ef370131a65e37312" alt="" width="100%"/> 
+            </div>
+            <div class="product-laptop-name">
+              <p>xioami mi 4 32 inch full HD android TV<br>
+              <br>
+              </p>
+            </div>
+            <div class="product-laptop-price">
+              <p>Rp 4.699.000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- COLS END -->
+      <!--AQUA -->
+      <div class="col">
+        <div class="container-laptop">
+          <div class="wrapper-laptop">
+            <div class="product-laptop-image">
+              <img src="https://cf.shopee.co.id/file/51cb4515454e7d280c6ab998f5170442" alt="" width="100%"/> 
+            </div>
+            <div class="product-laptop-name">
+              <p>Aqua japan smart TV android | HDMI Android
+              </p>
+            </div>
+            <div class="product-laptop-price">
+              <p>Rp 3.000.000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- COLS END -->
+      <!-- SHARP -->
+      <div class="col">
+        <div class="container-laptop">
+          <div class="wrapper-laptop">
+            <div class="product-laptop-image">
+              <img src="https://cf.shopee.co.id/file/f3ae02fc620f23351048056729598cce" alt="" width="100%"/> 
+            </div>
+            <div class="product-laptop-name">
+              <p>TV LED sharp smart TV 42 inch
+              </p>
+            </div>
+            <div class="product-laptop-price">
+              <p>Rp 4.225.000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- COLS END -->
+    </div>
+  </div>
+  </section>
+  <!-- PRODUCT TV END-->
+  
+  
+  
+    <!-- JS DROPDOWN -->
+    <script src="asset/js/dropdown.js" type="application/javascript"></script>
+    <script src="asset/js/slider.js" type="text/javascript"></script>
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
